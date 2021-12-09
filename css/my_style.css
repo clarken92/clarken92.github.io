@@ -1,0 +1,70 @@
+body {
+	padding-top: 54px;
+	margin-top: 24px;
+}
+
+/* This is for section formatting */
+div.sect-lv3 {
+	padding-bottom: 20px
+}
+
+div.sect-lv3 > h3:first-child {
+	padding-bottom: 15px
+}
+
+div.sect-lv4 {
+	padding-bottom: 15px
+}
+
+div.sect-lv4 > h4:first-child {
+	padding-bottom: 10px;
+}
+
+/* This is for 'publications.html' */
+li.li-paper {
+	padding-bottom: 8px;
+}
+
+span.paper-name {
+	font-size: 1.2em;
+}
+
+span.paper-links a {
+	color: red;
+}
+
+
+/* This is for 'awards.html' */
+table.table-event {
+	border: none;
+	font-size: 1.2em;
+}
+
+td.td-event-time-1 {
+	width: 15%;
+	vertical-align: top;
+	color: purple;
+}
+
+td.td-event-text-1 {
+	width: 85%;
+}
+
+td.td-event-time-2 {
+	width: 23%;
+	vertical-align: top;
+	color: purple;
+}
+
+td.td-event-text-2 {
+	width: 77%;
+}
+
+span.event-name {
+	font-weight: bold;
+	font-style: italic;
+}
+
+span.event-desc {
+	font-size: 0.8334em;
+}
