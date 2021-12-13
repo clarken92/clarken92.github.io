@@ -26,7 +26,7 @@ li.li-paper {
 }
 
 span.paper-name {
-	font-size: 1.2em;
+	font-size: 1.2rem;
 }
 
 span.paper-links a {
@@ -37,7 +37,7 @@ span.paper-links a {
 /* This is for 'awards.html' */
 table.table-event {
 	border: none;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 }
 
 td.td-event-time-1 {
@@ -66,5 +66,20 @@ span.event-name {
 }
 
 span.event-desc {
-	font-size: 0.8334em;
+	font-size: 1.0rem;
+}
+
+/* This is for 'index.html' */
+table.table-news {
+	border: none;
+}
+
+td.td-news-time-1 {
+	width: 13%;
+	vertical-align: top;
+	color: green
+}
+
+td.td-news-text-1 {
+	width: 87%;
 }

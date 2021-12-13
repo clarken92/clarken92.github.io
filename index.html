@@ -12,8 +12,8 @@
 	
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
 	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
@@ -22,7 +22,9 @@
 	<script src="components/nav_bar.js" type="text/javascript" defer></script>
 	<script src="components/my_info.js" type="text/javascript" defer></script>
 	<script src="components/my_logo_1.js" type="text/javascript" defer></script>
+	
 	<link rel="stylesheet" href="css/my_style.css">
+	<script src="js/my_script.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -58,10 +60,261 @@
 					<h4>News</h4>
 					
 					<p>
-						My personal website is under construction. Stay tuned for more updated information.
+						<i>Thank you for visiting my website. My website is currently under construction. Stay tuned for more updated information.</i>
 					</p>
+						
+					<div id="recent-news">
+						<table class="table-news">
+							<tbody>
+								<tr class="tr-news">
+									<td class="td-news-time-1">03/12/2021</td>
+									<td class="td-news-text-1">
+										I was in the panel interviewing Khanh-Toan Nguyen for the PhD scholarship at A2I2.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">01/12/2021</td>
+									<td class="td-news-text-1">
+										Our paper <i>"Episodic Policy Optimization"</i> was accepted at 
+										<a href="https://aaai.org/Conferences/AAAI-22/">AAAI-2022</a>. 
+										Congrats to Dr. Hung Le and other people in the team!
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">29/11/2021</td>
+									<td class="td-news-text-1">
+										My <i>Academic Promotion Application</i> 
+										from <a href="https://www.deakin.edu.au/__data/assets/pdf_file/0004/2354404/academic_salary_rates_0321.pdf">level A</a> 
+										to <a href="https://www.deakin.edu.au/__data/assets/pdf_file/0004/2354404/academic_salary_rates_0321.pdf">level B</a> 
+										was officially approved and will be effective from 1 January 2022.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">23/11/2021</td>
+									<td class="td-news-text-1">
+										I accpeted an invitation to be the reviewer for <a href="https://cvpr2022.thecvf.com/">CVPR-2022</a>.
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						
+						<h5 style="padding-top: 0.5rem; padding-bottom: 0.5rem; margin-bottom: 0.0rem">
+							[<a href="javascript:void(0)" onclick="showOlderNews(this)">Older news</a>]
+						</h5>
+					</div>
+					
+					<div id="old-news" style="display: none;">
+						<h5 style="padding-bottom: 0.5rem; margin-bottom: 0.0rem">
+							[<a href="javascript:void(0)" onclick="showLatestNews(this)">Latest news</a>]
+						</h5>
+						
+						<table class="table-news">
+							<tbody>
+								<tr class="tr-news">
+									<td class="td-news-time-1">23/07/2021</td>
+									<td class="td-news-text-1">
+										Our paper <i>"Clustering by Maximizing Mutual Information Across Views"</i> was accepted at 
+										<a href="https://iccv2021.thecvf.com/home">ICCV-2021</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">13/06/2021</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the reviewer for <a href="https://iclr.cc/Conferences/2022">ICLR-2022</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">12/05/2021</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the reviewer for the Journal of Machine Learning Research (JMLR) from Samy Bengio.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">02/04/2021</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the reviewer for <a href="http://www.acml-conf.org/2021/">ACML-2021</a> (both Conference and Journal Tracks).
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">06/04/2021</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the reviewer for <a href="https://nips.cc/Conferences/2021">NeurIPS-2021</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">25/02/2021</td>
+									<td class="td-news-text-1">
+										I was in the panel judging the performance of Minh-Tri Nguyen in one year for the official confirmation of his PhD candidature.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">02/12/2020</td>
+									<td class="td-news-text-1">
+										Our paper <i>"Semi-Supervised Learning with Variational Bayesian Inference and Maximum Uncertainty Regularization"</i> was accepted at 
+										<a href="https://aaai.org/Conferences/AAAI-21/">AAAI-2021</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">11/11/2020</td>
+									<td class="td-news-text-1">
+										I was in the panel interviewing two undergraduate students 
+										Johnathon Toh and Nithin Reddy Gundre for the Research Internships at A2I2.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">28/08/2020</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the Program Committee (PC) member for <a href="https://aaai.org/Conferences/AAAI-21/">AAAI-2021</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">03/07/2020</td>
+									<td class="td-news-text-1">
+										I was in the panel interviewing Hoang-Anh Pham for the PhD scholarship at A2I2.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">15/05/2020</td>
+									<td class="td-news-text-1">
+										I was in the panel judging the performance of Duc Xuan Nguyen in one year for the official confirmation of his PhD candidature.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">01/05/2020</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the reviewer for the Machine Learning Journal (ACML-2020 Journal Track).
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">02/04/2020</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the reviewer for <a href="http://www.acml-conf.org/2020/">ACML-2020</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">18/01/2020</td>
+									<td class="td-news-text-1">
+										I started working as a full-time Postdoctoral Research Fellow at A2I2, Deakin University.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">15/01/2020</td>
+									<td class="td-news-text-1">
+										I officially completed my PhD.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">03/01/2020</td>
+									<td class="td-news-text-1">
+										I received an official offer to work as a Research Scientist at VinAI Research after an intensive interview process.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">20/12/2019</td>
+									<td class="td-news-text-1">
+										Our paper <i>"Theory and Evaluation Metrics for Learning Disentangled Representations"</i> was accepted at 
+										<a href="https://iclr.cc/Conferences/2020">ICLR-2020</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">30/04/2019</td>
+									<td class="td-news-text-1">
+										Our paper <i>"Graph Transformation Policy Network for Chemical Reaction Prediction"</i> was accepted at 
+										<a href="https://www.kdd.org/kdd2019/">KDD-2019</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">11/03/2019</td>
+									<td class="td-news-text-1">
+										Our paper <a href="https://link.springer.com/article/10.1007/s10994-019-05782-6"><i>"Attentional Multilabel Learning over Graphs: A Message Passing Approach"</i></a> was published  
+										in the Machine Learning Journal.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">04/03/2019</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the Program Committee (PC) member for <a href="http://www.acml-conf.org/2019/">ACML-2019</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">29/04/2018</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the Program Committee (PC) member for <a href="http://www.acml-conf.org/2018/">ACML-2018</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">11/04/2018</td>
+									<td class="td-news-text-1">
+										Our paper <i>"Knowledge Graph Embedding with Multiple Relation Projections"</i> was accepted at 
+										<a href="https://iapr.org/archives/icpr2018/">ICPR-2018</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">07/03/2018</td>
+									<td class="td-news-text-1">
+										I accepted an invitation to be the reviewer for <a href="https://iapr.org/archives/icpr2018/">ICPR-2018</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">15/02/2018</td>
+									<td class="td-news-text-1">
+										Our paper <a href="https://link.springer.com/article/10.1007/s10115-018-1168-z"><i>"Energy-Based Anomaly Detection for Mixed Data"</i></a> was published  
+										in the Knowledge and Information Systems Journal.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">14/03/2017</td>
+									<td class="td-news-text-1">
+										My PhD candidature was officially confirmed.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">19/09/2016</td>
+									<td class="td-news-text-1">
+										Our paper <i>"Outlier Detection on Mixed-Type Data: An Energy-based Approach"</i> was accepted at 
+										<a href="https://cs.adelaide.edu.au/~adma2016/">ADMA-2016</a>.
+									</td>
+								</tr>
+								
+								<tr class="tr-news">
+									<td class="td-news-time-1">04/04/2016</td>
+									<td class="td-news-text-1">
+										I started my PhD at the <a href="https://www.deakin.edu.au/prada">Centre for Pattern Recognition and Data Analytics</a> (PRaDA), Deakin University 
+										under the supervision of Dr. Truyen Tran and Prof. Svetha Venkatesh.
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
-				
 			</div>
 		
 		</div>
