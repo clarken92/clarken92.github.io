@@ -1,2 +1,2 @@
 # clarken92.github.io
-My portifolio
+My portfolio
