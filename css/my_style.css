@@ -5,24 +5,39 @@ body {
 
 /* This is for section formatting */
 div.sect-lv3 {
-	padding-bottom: 20px
+	padding-bottom: 2rem;
 }
 
 div.sect-lv3 > h3:first-child {
-	padding-bottom: 15px
+	margin-bottom: 0;
+	padding-bottom: 1rem;
 }
 
 div.sect-lv4 {
-	padding-bottom: 15px
+	padding-bottom: 1rem;
 }
 
 div.sect-lv4 > h4:first-child {
-	padding-bottom: 10px;
+	margin-bottom: 0;
+	padding-bottom: 0.8rem;
+}
+
+div.last-elem, li.last-elem {
+	margin-bottom: 0  !important;
+    padding-bottom: 0  !important;
+}
+
+p {
+	margin-bottom: 0;
 }
 
 /* This is for 'publications.html' */
+ul.ul-paper {
+	margin-bottom: 0;
+}
+
 li.li-paper {
-	padding-bottom: 8px;
+	padding-bottom: 0.5rem;
 }
 
 span.paper-name {
@@ -77,7 +92,7 @@ table.table-news {
 td.td-news-time-1 {
 	width: 13%;
 	vertical-align: top;
-	color: green
+	color: green;
 }
 
 td.td-news-text-1 {

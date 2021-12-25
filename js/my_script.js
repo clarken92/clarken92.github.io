@@ -2,15 +2,8 @@
 $(document).ready(function() {
 	var file_name = location.pathname.split("/").slice(-1)[0];
 	
-	console.log(file_name);
-	
 	var nav_items = document.getElementsByClassName("nav-item");
 	for (i=0; i < nav_items.length; i++){
-		// console.log(i);
-		// console.log(nav_items[i].nodeName);
-		// console.log(nav_items[i].firstChild.nodeName);
-		// console.log(nav_items[i].firstChild.getAttribute('href'));
-		
 		nav_link = nav_items[i].getElementsByTagName("a")[0];
 		
 		if (((file_name == "index.html" || file_name == "") && (nav_link.getAttribute("href") == "/")) || 
