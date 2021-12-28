@@ -9,7 +9,7 @@ class MyInfo extends HTMLElement {
 			<img class="rounded-circle" src="assets/img/KienDo.jpg" style="width: 70%; height: auto">
 		</div>
 
-		<div class="row" style="padding-top: 1rem">
+		<div class="row" style="padding-top: 0.6rem">
 			<ul style="list-style-type: none; padding-left: 1rem">
 				<li>
 					Postdoctoral Research Fellow<br>
