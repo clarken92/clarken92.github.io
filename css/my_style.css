@@ -22,7 +22,7 @@ div.sect-lv4 > h4:first-child {
 	padding-bottom: 0.8rem;
 }
 
-div.last-elem, li.last-elem {
+div.last-elem, ul.last-elem, li.last-elem {
 	margin-bottom: 0  !important;
     padding-bottom: 0  !important;
 }
@@ -30,6 +30,13 @@ div.last-elem, li.last-elem {
 p {
 	margin-bottom: 0;
 }
+
+/* This is for 'professional_services.html' */
+ul.ul-reviewer {
+	padding-left: 2rem;
+	font-size: 1.2rem;
+}
+
 
 /* This is for 'publications.html' */
 ul.ul-paper {
