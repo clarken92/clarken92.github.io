@@ -9,8 +9,8 @@ class MyInfo extends HTMLElement {
 			<img class="rounded-circle" src="assets/img/KienDo.jpg" style="width: 70%; height: auto">
 		</div>
 
-		<div class="row" style="padding-top: 10px">
-			<ul style="list-style-type: none; padding-left: 15px">
+		<div class="row" style="padding-top: 1rem">
+			<ul style="list-style-type: none; padding-left: 1rem">
 				<li>
 					Postdoctoral Research Fellow<br>
 					A2I2, Deakin University<br>
