@@ -29,7 +29,7 @@ class MyInfo extends HTMLElement {
 				</li>
 				<li>
 					<i class="bi bi-linkedin" style="font-size: 0.85rem"></i>
-					<a href="https://www.linkedin.com/in/kien-duc-do-b45846a4/"> LinkedIn</a>
+					<a href="https://www.linkedin.com/in/kien-do-b45846a4/"> LinkedIn</a>
 				</li>
 				<li>
 					<i class="bi bi-twitter" style="font-size: 0.85rem"></i>
