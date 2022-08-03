@@ -31,6 +31,18 @@ p {
 	margin-bottom: 0;
 }
 
+#visit_tracker {
+  text-align: center;
+}
+
+div.visit-counter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 95%;
+	height: auto;
+}
+
 /* This is for 'professional_services.html' */
 ul.ul-reviewer {
 	padding-left: 2rem;
