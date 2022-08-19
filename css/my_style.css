@@ -31,10 +31,6 @@ p {
 	margin-bottom: 0;
 }
 
-#visit_tracker {
-  text-align: center;
-}
-
 div.visit-counter {
 	display: block;
 	margin-left: auto;
@@ -49,6 +45,22 @@ ul.ul-reviewer {
 	font-size: 1.2rem;
 }
 
+table.table-review {
+	border: none;
+	border-spacing: 0;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+td.td-conf-name {
+	width: 12%;
+	vertical-align: top;
+	color: green;
+}
+
+td.td-review-years {
+	width: 88%;
+}
 
 /* This is for 'publications.html' */
 ul.ul-paper {
@@ -71,6 +83,8 @@ span.paper-links a {
 /* This is for 'awards.html' */
 table.table-event {
 	border: none;
+	border-spacing: 0;
+	width: 100%;
 	font-size: 1.2rem;
 }
 
@@ -103,9 +117,12 @@ span.event-desc {
 	font-size: 1.0rem;
 }
 
+
 /* This is for 'index.html' */
 table.table-news {
 	border: none;
+	border-spacing: 0;
+	width: 100%;
 }
 
 td.td-news-time-1 {
