@@ -39,28 +39,25 @@ div.visit-counter {
 	height: auto;
 }
 
-/* This is for 'professional_services.html' */
-ul.ul-reviewer {
-	padding-left: 2rem;
-	font-size: 1.2rem;
-}
 
-table.table-review {
+/* This is for 'index.html' */
+table.table-news {
 	border: none;
 	border-spacing: 0;
 	width: 100%;
-	font-size: 1.2rem;
 }
 
-td.td-conf-name {
-	width: 12%;
+td.td-news-time-1 {
+	width: 13%;
 	vertical-align: top;
-	color: green;
+	color: #38B000;
+	/* color: green;  */
 }
 
-td.td-review-years {
-	width: 88%;
+td.td-news-text-1 {
+	width: 87%;
 }
+
 
 /* This is for 'publications.html' */
 ul.ul-paper {
@@ -80,6 +77,95 @@ span.paper-links a {
 }
 
 
+/* This is for 'supervision.html' */
+table.table-student {
+	border: none;
+	border-collapse: separate;
+	border-spacing: 0 1rem;
+	width: 100%;
+}
+
+td.td-student {
+	width: 50%;
+	vertical-align: middle;
+}
+
+div.student-wrap {
+	overflow: auto;
+	vertical-align:middle;
+}
+
+img.student-image {
+	border-radius: 50%;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-right: 1rem;
+}
+
+div.student-details {
+	float: left;
+	padding-top: 0.16rem;
+}
+
+span.student-name {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.1rem;
+	color: #FF7900;
+	/* color: orange; */
+}
+
+span.student-query {
+	font-weight: bold;
+	color: #8E443D;
+	/* color: brown; */
+}
+
+ul.ul-topics, ul.required-docs {
+	/* list-style: none; */
+    padding-left: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+span.topic-title {
+	/* font-size: 1.2rem; */
+	font-style: italic;
+	font-weight: bold;
+}
+
+span.select-criterion {
+	font-style: italic;
+}
+
+
+/* This is for 'professional_services.html' */
+ul.ul-reviewer {
+	padding-left: 2rem;
+	font-size: 1.2rem;
+}
+
+table.table-review {
+	border: none;
+	border-spacing: 0;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+td.td-conf-name {
+	width: 12%;
+	vertical-align: top;
+	color: #38B000;
+	/* color: #55A630; */
+	/* color: green; */
+}
+
+td.td-review-years {
+	width: 88%;
+}
+
+
 /* This is for 'awards.html' */
 table.table-event {
 	border: none;
@@ -91,7 +177,8 @@ table.table-event {
 td.td-event-time-1 {
 	width: 15%;
 	vertical-align: top;
-	color: purple;
+	color: #9932CC;
+	/* color: purple; */
 }
 
 td.td-event-text-1 {
@@ -101,7 +188,8 @@ td.td-event-text-1 {
 td.td-event-time-2 {
 	width: 23%;
 	vertical-align: top;
-	color: purple;
+	color: #E76F51;
+	/* color: purple; */
 }
 
 td.td-event-text-2 {
@@ -115,22 +203,4 @@ span.event-name {
 
 span.event-desc {
 	font-size: 1.0rem;
-}
-
-
-/* This is for 'index.html' */
-table.table-news {
-	border: none;
-	border-spacing: 0;
-	width: 100%;
-}
-
-td.td-news-time-1 {
-	width: 13%;
-	vertical-align: top;
-	color: green;
-}
-
-td.td-news-text-1 {
-	width: 87%;
 }

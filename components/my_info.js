@@ -24,6 +24,10 @@ class MyInfo extends HTMLElement {
 					<a href="mailto:hunken92(at)gmail(dot)com"> Email</a>
 				</li>
 				<li>
+					<i class="bi bi-envelope-fill" style="font-size: 0.85rem"></i>
+					<a href="mailto:k.do(at)deakin(dot)edu(dot)au"> Work Email</a>
+				</li>
+				<li>
 					<i class="ai ai-google-scholar-square"></i>
 					<a href="https://scholar.google.com/citations?user=aD6y8joAAAAJ&hl=en"> Google Scholar</a>
 				</li>
