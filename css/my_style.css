@@ -4,6 +4,7 @@ body {
 }
 
 /* This is for section formatting */
+/* -------------------------------------------------------- */
 div.sect-lv3 {
 	padding-bottom: 2rem;
 }
@@ -31,6 +32,13 @@ p {
 	margin-bottom: 0;
 }
 
+
+div.article {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
 div.visit-counter {
 	display: block;
 	margin-left: auto;
@@ -38,9 +46,11 @@ div.visit-counter {
 	max-width: 95%;
 	height: auto;
 }
+/* -------------------------------------------------------- */
 
 
-/* This is for 'index.html' */
+/* For 'index.html' */
+/* -------------------------------------------------------- */
 table.table-news {
 	border: none;
 	border-spacing: 0;
@@ -57,9 +67,11 @@ td.td-news-time-1 {
 td.td-news-text-1 {
 	width: 87%;
 }
+/* -------------------------------------------------------- */
 
 
-/* This is for 'publications.html' */
+/* For 'publications.html' */
+/* -------------------------------------------------------- */
 ul.ul-paper {
 	margin-bottom: 0;
 }
@@ -75,9 +87,11 @@ span.paper-name {
 span.paper-links a {
 	color: red;
 }
+/* -------------------------------------------------------- */
 
 
-/* This is for 'supervision.html' */
+/* For 'supervision.html' */
+/* -------------------------------------------------------- */
 table.table-student {
 	border: none;
 	border-collapse: separate;
@@ -121,8 +135,12 @@ span.student-query {
 	color: #8E443D;
 	/* color: brown; */
 }
+/* -------------------------------------------------------- */
 
-ul.ul-topics, ul.required-docs {
+
+/* For 'phd_application.html' */
+/* -------------------------------------------------------- */
+ul.ul-topics, ul.required-docs,  ul.phd-select-criteria {
 	/* list-style: none; */
     padding-left: 2rem;
 	margin-top: 0.5rem;
@@ -139,9 +157,11 @@ span.select-criterion {
 	font-style: italic;
 	font-weight: bold;
 }
+/* -------------------------------------------------------- */
 
 
-/* This is for 'professional_services.html' */
+/* For 'professional_services.html' */
+/* -------------------------------------------------------- */
 ul.ul-reviewer {
 	padding-left: 2rem;
 	font-size: 1.2rem;
@@ -165,9 +185,11 @@ td.td-conf-name {
 td.td-review-years {
 	width: 88%;
 }
+/* -------------------------------------------------------- */
 
 
-/* This is for 'awards.html' */
+/* For 'awards.html' */
+/* -------------------------------------------------------- */
 table.table-event {
 	border: none;
 	border-spacing: 0;
@@ -205,3 +227,4 @@ span.event-name {
 span.event-desc {
 	font-size: 1.0rem;
 }
+/* -------------------------------------------------------- */
