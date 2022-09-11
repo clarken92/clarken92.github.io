@@ -81,11 +81,23 @@ li.li-paper {
 }
 
 span.paper-name {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
+}
+
+div.paper-item {
+	text-align: left;
+}
+
+span.paper-links {
+	font-size: 0.9rem;
 }
 
 span.paper-links a {
 	color: red;
+}
+
+span.author-names {
+	font-size: 0.9rem;
 }
 /* -------------------------------------------------------- */
 
@@ -162,16 +174,11 @@ span.select-criterion {
 
 /* For 'professional_services.html' */
 /* -------------------------------------------------------- */
-ul.ul-reviewer {
-	padding-left: 2rem;
-	font-size: 1.2rem;
-}
-
 table.table-review {
 	border: none;
 	border-spacing: 0;
 	width: 100%;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 }
 
 td.td-conf-name {
@@ -185,6 +192,10 @@ td.td-conf-name {
 td.td-review-years {
 	width: 88%;
 }
+
+div.review-hl {
+	font-size: 0.9rem;
+}
 /* -------------------------------------------------------- */
 
 
@@ -194,29 +205,29 @@ table.table-event {
 	border: none;
 	border-spacing: 0;
 	width: 100%;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 }
 
 td.td-event-time-1 {
-	width: 15%;
+	width: 14%;
 	vertical-align: top;
 	color: #9932CC;
 	/* color: purple; */
 }
 
 td.td-event-text-1 {
-	width: 85%;
+	width: 86%;
 }
 
 td.td-event-time-2 {
-	width: 23%;
+	width: 20%;
 	vertical-align: top;
 	color: #E76F51;
 	/* color: purple; */
 }
 
 td.td-event-text-2 {
-	width: 77%;
+	width: 80%;
 }
 
 span.event-name {
@@ -225,6 +236,6 @@ span.event-name {
 }
 
 span.event-desc {
-	font-size: 1.0rem;
+	font-size: 0.9rem;
 }
 /* -------------------------------------------------------- */
