@@ -16,10 +16,6 @@ class MyInfo extends HTMLElement {
 					A2I2, Deakin University<br>
 				<li>
 				<li>
-					<i class="bi bi-file-person-fill" style="font-size: 0.85rem"></i>
-					<a href="#"> Curriculumn Vitae</a>
-				</li>
-				<li>
 					<i class="bi bi-envelope-fill" style="font-size: 0.85rem"></i>
 					<a href="mailto:hunken92(at)gmail(dot)com"> Email</a>
 				</li>
