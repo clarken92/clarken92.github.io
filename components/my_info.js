@@ -17,8 +17,7 @@ class MyInfo extends HTMLElement {
 				<li>
 				<li>
 					<i class="bi bi-file-person-fill" style="font-size: 0.85rem"></i>
-					<!--<a href="resources/CV_kiendo.pdf"> Curriculumn Vitae</a>-->
-					<a href="javascript:void(0)"> Curriculumn Vitae</a>
+					<a href="#"> Curriculumn Vitae</a>
 				</li>
 				<li>
 					<i class="bi bi-envelope-fill" style="font-size: 0.85rem"></i>
