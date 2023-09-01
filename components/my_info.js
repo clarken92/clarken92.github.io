@@ -14,7 +14,7 @@ class MyInfo extends HTMLElement {
 				<li>
 					Research Fellow<br>
 					A2I2, Deakin University<br>
-				<li>
+				</li>
 				<li>
 					<i class="bi bi-envelope-fill" style="font-size: 0.85rem"></i>
 					<a href="mailto:hunken92(at)gmail(dot)com"> Email</a>
