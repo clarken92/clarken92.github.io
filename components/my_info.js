@@ -12,12 +12,13 @@ class MyInfo extends HTMLElement {
 		<div class="row" style="padding-top: 0.6rem">
 			<ul style="list-style-type: none; padding-left: 1rem">
 				<li>
-					Postdoctoral Research Fellow<br>
+					Research Fellow<br>
 					A2I2, Deakin University<br>
 				<li>
 				<li>
 					<i class="bi bi-file-person-fill" style="font-size: 0.85rem"></i>
-					<a href="resources/CV_kiendo.pdf"> Curriculumn Vitae</a>
+					<!--<a href="resources/CV_kiendo.pdf"> Curriculumn Vitae</a>-->
+					<a href="javascript:void(0)"> Curriculumn Vitae</a>
 				</li>
 				<li>
 					<i class="bi bi-envelope-fill" style="font-size: 0.85rem"></i>
