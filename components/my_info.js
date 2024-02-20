@@ -6,7 +6,7 @@ class MyInfo extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 		<div class="row">
-			<img class="rounded-circle" src="assets/img/KienDo.jpg" style="width: 70%; height: auto">
+			<img src="assets/img/KienDo.jpg" alt="Kien Do" style="border-radius: 50%; width: 70%; height: auto; float: left;">
 		</div>
 
 		<div class="row" style="padding-top: 0.6rem">
