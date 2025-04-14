@@ -82,6 +82,12 @@ li.li-paper {
 
 span.paper-name {
 	font-size: 1.1rem;
+	font-style: italic;
+}
+
+span.paper-conf-year {
+	font-size: 1.1rem;
+	color: #32CD43;
 }
 
 div.paper-item {
@@ -123,7 +129,7 @@ div.student-wrap {
 
 img.student-image {
 	border-radius: 50%;
-	width: 100px;
+	width: 120px;
 	height: auto;
 	float: left;
 	margin-right: 1rem;
@@ -132,7 +138,7 @@ img.student-image {
 
 div.student-details {
 	float: left;
-	padding-top: 0.05rem;
+	padding-top: 0.01rem;
 }
 
 span.student-name {
