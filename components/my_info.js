@@ -12,9 +12,15 @@ class MyInfo extends HTMLElement {
 		<div class="row" style="padding-top: 0.6rem">
 			<ul style="list-style-type: none; padding-left: 1rem">
 				<li>
-					Research Fellow<br>
-					A2I2, Deakin University<br>
+					AI Scientist<br>
+					FPT Smart Cloud, Hanoi, Vietnam<br>
 				</li>
+				<!--
+				<li>
+					Research Fellow<br>
+					A2I2, Deakin University, Australia<br>
+				</li>
+				-->
 				<li>
 					<i class="bi bi-envelope-fill" style="font-size: 0.85rem"></i>
 					<a href="mailto:hunken92(at)gmail(dot)com"> Email</a>
