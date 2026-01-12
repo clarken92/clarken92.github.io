@@ -27,7 +27,7 @@ class MyInfo extends HTMLElement {
 				</li>
 				<li>
 					<i class="bi bi-envelope-fill" style="font-size: 0.85rem"></i>
-					<a href="mailto:k.do(at)deakin(dot)edu(dot)au"> Work Email</a>
+					<a href="mailto:kiendd6(at)fpt(dot)com"> Work Email</a>
 				</li>
 				<li>
 					<i class="ai ai-google-scholar-square"></i>
